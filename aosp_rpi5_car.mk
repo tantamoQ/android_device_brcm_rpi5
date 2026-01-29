@@ -120,3 +120,7 @@ PRODUCT_NAME := aosp_rpi5_car
 PRODUCT_BRAND := Raspberry
 PRODUCT_MODEL := Pi 5
 PRODUCT_MANUFACTURER := Raspberry
+
+# Custom Broadcast Radio Firmware (Dummy for pipeline test)
+PRODUCT_PACKAGES += \
+    broadcastradio_firmware_readme
